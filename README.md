@@ -40,6 +40,11 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 ### Access Locally
 
+Ensure netlify-cli is installed
+```
+$ npm install netlify-cli -g
+```
+
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
 ```
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
