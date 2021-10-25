@@ -11,6 +11,7 @@ export const GamePageTemplate = ({
   heading,
   description,
   intro,
+  main,
   testimonials,
 }) => (
   <div className="content">
@@ -45,6 +46,14 @@ export const GamePageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
+              <div className="columns">
+                <div className="column is-7">
+                  <h3 className="has-text-weight-semibold is-size-3">
+                    {intro.heading}
+                  </h3>
+                  <p>{intro.description}</p>
+                </div>
+              </div>
               <Features gridItems={intro.blurbs} />
               <Testimonials testimonials={testimonials} />
             </div>
