@@ -40,6 +40,11 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 ### Access Locally
 
+Ensure netlify-cli is installed
+```
+$ npm install netlify-cli -g
+```
+
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
 ```
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
@@ -68,7 +73,7 @@ import CMS from 'netlify-cms-app'
 
 import AboutPagePreview from './preview-templates/AboutPagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
-import ProductPagePreview from './preview-templates/ProductPagePreview'
+import GamePagePreview from './preview-templates/GamePagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 // CMS.registerMediaLibrary(uploadcare);
@@ -76,7 +81,7 @@ import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
-CMS.registerPreviewTemplate('products', ProductPagePreview)
+CMS.registerPreviewTemplate('games', GamePagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 ```
 
