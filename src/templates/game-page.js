@@ -71,6 +71,8 @@ GamePageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
+    heading: PropTypes.string,
+    description: PropTypes.string,
   }),
   testimonials: PropTypes.array,
 }
