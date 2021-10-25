@@ -14,7 +14,7 @@ tags:
 ---
 ![Dangernauts](/img/dangernauts.png)
 
-Dangernauts is available for download at https://littleleafinteractive.itch.io/dangernauts
+Dangernauts is available for download at [itch.io](https://littleleafinteractive.itch.io/dangernauts)
 
 ## About the game
 
