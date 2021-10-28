@@ -6,8 +6,10 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import logo from '../img/logo.svg'
+import Content from '../components/Content'
 
 export const IndexPageTemplate = ({
+  content,
   image,
   heading,
   mainpitch,
@@ -74,6 +76,7 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+                <Content content={content} />
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
@@ -95,6 +98,7 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
+  content: PropTypes.node.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   heading: PropTypes.string,
   mainpitch: PropTypes.object,
@@ -110,6 +114,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
+        content={data.html}
         image={frontmatter.image}
         heading={frontmatter.heading}
         mainpitch={frontmatter.mainpitch}
@@ -133,6 +138,7 @@ export default IndexPage
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      html
       frontmatter {
         image {
           childImageSharp {
@@ -158,8 +164,6 @@ export const pageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
       }
     }
