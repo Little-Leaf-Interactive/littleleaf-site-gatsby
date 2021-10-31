@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { GamePageTemplate } from '../../templates/game-page'
 
-const GamePagePreview = ({ entry, getAsset }) => {
+const GamePagePreview = ({ entry, getAsset, widgetFor }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
@@ -21,6 +21,7 @@ const GamePagePreview = ({ entry, getAsset }) => {
         heading: entry.getIn(['data', 'intro', 'heading'])
       }}
       testimonials={testimonials}
+      content={widgetFor('body')}
     />
   )
 }
@@ -30,6 +31,7 @@ GamePagePreview.propTypes = {
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
+  widgetFor: PropTypes.func,
 }
 
 export default GamePagePreview
