@@ -13,7 +13,11 @@ const IndexPagePreview = ({ entry, getAsset, widgetFor }) => {
         heading={data.heading}
         subheading={data.subheading}
         description={data.description}
-        intro={data.intro || { blurbs: [] }}
+        intro={{ 
+          blurbs: blurbs,
+          description: entry.getIn(['data', 'intro', 'description']),
+          heading: entry.getIn(['data', 'intro', 'heading'])
+        }}
         mainpitch={data.mainpitch || {}}
         content={widgetFor('body')}
       />
