@@ -5,7 +5,7 @@ title: Our Games
 image: /img/jumbotron.jpg
 heading: What we've made so far
 description: >-
-  You can find our first release
+  Here is a list of our games...
 intro:
   blurbs:
     - image: /img/dangernauts.png
@@ -22,3 +22,7 @@ testimonials:
     quote: >-
       Little Leaf is the place to go if you want the best quality games.
 ---
+![Dangernauts](/img/dangernauts.png)
+
+Dangernauts is available for download at [itch.io](https://littleleafinteractive.itch.io/dangernauts)
+
