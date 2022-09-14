@@ -16,9 +16,7 @@ const GamePagePreview = ({ entry, getAsset, widgetFor }) => {
       heading={entry.getIn(['data', 'heading'])}
       description={entry.getIn(['data', 'description'])}
       intro={{ 
-        blurbs: blurbs,
-        description: entry.getIn(['data', 'intro', 'description']),
-        heading: entry.getIn(['data', 'intro', 'heading'])
+        blurbs: blurbs
       }}
       testimonials={testimonials}
       content={widgetFor('body')}
