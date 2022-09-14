@@ -1,18 +1,18 @@
 ---
-templateKey: 'blog-post'
-title: 'Dangernauts available now on itch.io'
+templateKey: blog-post
+title: Dangernauts available now on itch.io
 date: 2020-03-01T15:04:10.000Z
+description: Our first title is available for free download
 featuredpost: true
-featuredimage: '/img/dangernauts.png'
-description: >-
-  Our first title is available for free download
+featuredimage: /img/dangernauts.png
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - Dangernauts
+  - itch.io
+  - Multiplayer
+  - PC
+  - Unity
 ---
-![Dangernauts](/img/dangernauts.png)
+![Dangernauts Logo](/img/dangernauts.png "Dangernauts Logo")
 
 Dangernauts is available for download at [itch.io](https://littleleafinteractive.itch.io/dangernauts)
 
