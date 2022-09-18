@@ -1,5 +1,5 @@
 ---
-heading: What we've made so far
+heading: What we've made
 path: /games
 templateKey: game-page
 title: Our Games
