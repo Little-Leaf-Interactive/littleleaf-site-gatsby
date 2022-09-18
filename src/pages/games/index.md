@@ -13,7 +13,7 @@ intro:
 
 
         Join Team Coral Reef or Team Algae Blooms as you venture under the sea. Maneuver your team's submarine and acquire the sea mine to destroy your enemy's base in a timed match. Enter the sub as one of four playable sailors; Sassy Scuba Guy, Wiggling Octopus, Merman of a different sort, and Mr. Shark.
-    - image: /img/subspace-hackers_logo.png
+    - image: /img/zwicky-avatar.png
       text: >-
         COMING SOON: Subspace Hackers
 
