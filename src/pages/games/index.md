@@ -1,26 +1,35 @@
 ---
-templateKey: 'game-page'
+heading: What we've made so far
 path: /games
+templateKey: game-page
 title: Our Games
 image: /img/jumbotron.jpg
-heading: What we've made so far
-description: >-
-  Here is a list of our games...
+description: Here is a list of our games...
 intro:
   blurbs:
     - image: /img/dangernauts.png
-      text: >
-        1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - image: /img/subspace-hackers.png
-      text: >
-        2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      text: >-
+        Dangernauts is a simple team game!
+
+
+        Join Team Coral Reef or Team Algae Blooms as you venture under the sea. Maneuver your team's submarine and acquire the sea mine to destroy your enemy's base in a timed match. Enter the sub as one of four playable sailors; Sassy Scuba Guy, Wiggling Octopus, Merman of a different sort, and Mr. Shark.
+    - image: /img/subspace-hackers_logo.png
+      text: >-
+        COMING SOON: Subspace Hackers
+
+
+        You've been issued the HACK NE-1000!
+
+
+        Use this device to help Omniwise steal confidential information from other corporations.
+
+
+        Zwicky, an AI assistant, guides the player through how to use the Snke to collect letters and unlock levels!
 testimonials:
   - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Little Leaf's games, I couldn't stop playing!
+    quote: The first time I tried Little Leaf's games, I couldn't stop playing!
   - author: Philipp Trommler
-    quote: >-
-      Little Leaf is the place to go if you want the best quality games.
+    quote: Little Leaf is the place to go if you want the best quality games.
 ---
 ![Dangernauts](/img/dangernauts.png)
 
