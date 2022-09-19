@@ -12,9 +12,7 @@ export const IndexPageTemplate = ({
   content,
   contentComponent,
   image,
-  heading,
   mainpitch,
-  description,
   intro,
 }) => {
   const PageContent = contentComponent || Content;
@@ -67,9 +65,9 @@ export const IndexPageTemplate = ({
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
+                        {intro.heading}
                       </h3>
-                      <p>{description}</p>
+                      <p>{intro.description}</p>
                     </div>
                   </div>
                   {intro.blurbs && <Features gridItems={intro.blurbs} />}
@@ -106,12 +104,8 @@ IndexPageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  heading: PropTypes.string,
   mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  intro: PropTypes.object,
 }
 
 const IndexPage = ({ data }) => {
@@ -125,7 +119,6 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         heading={frontmatter.heading}
         mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -154,13 +147,13 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
         mainpitch {
           title
           description
         }
-        description
         intro {
+          heading
+          description
           blurbs {
             image {
               childImageSharp {

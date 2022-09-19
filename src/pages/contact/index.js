@@ -53,7 +53,7 @@ export default class Index extends React.Component {
                 <div hidden>
                   <label>
                     Don’t fill this out:{' '}
-                    <input name="bot-field" onChange={this.handleChange} />
+                    <input name="bot-field" onBlur={this.handleChange} />
                   </label>
                 </div>
                 <div className="field">
@@ -65,7 +65,7 @@ export default class Index extends React.Component {
                       className="input"
                       type={'text'}
                       name={'name'}
-                      onChange={this.handleChange}
+                      onBlur={this.handleChange}
                       id={'name'}
                       required={true}
                     />
@@ -79,7 +79,7 @@ export default class Index extends React.Component {
                     <select
                       className="input"
                       name={'reason'}
-                      onChange={this.handleChange}
+                      onBlur={this.handleChange}
                       id={'reason'}
                       required={true}
                     >
@@ -99,7 +99,7 @@ export default class Index extends React.Component {
                       className="input"
                       type={'email'}
                       name={'email'}
-                      onChange={this.handleChange}
+                      onBlur={this.handleChange}
                       id={'email'}
                       required={true}
                     />
@@ -113,7 +113,7 @@ export default class Index extends React.Component {
                     <textarea
                       className="textarea"
                       name={'message'}
-                      onChange={this.handleChange}
+                      onBlur={this.handleChange}
                       id={'message'}
                       required={true}
                     />
