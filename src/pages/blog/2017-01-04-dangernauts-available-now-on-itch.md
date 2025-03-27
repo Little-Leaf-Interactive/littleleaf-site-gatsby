@@ -12,7 +12,7 @@ tags:
   - PC
   - Unity
 ---
-![Dangernauts Logo](/img/dangernauts.png "Dangernauts Logo")
+![](/img/dangernauts.png)
 
 Dangernauts is available for download at [itch.io](https://littleleafinteractive.itch.io/dangernauts)
 
