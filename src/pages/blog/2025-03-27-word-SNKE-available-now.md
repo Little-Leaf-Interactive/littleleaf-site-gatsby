@@ -4,7 +4,7 @@ title: Word SNKE available now on the App Store and Google Play
 date: 2025-03-27T15:04:10.000Z
 description: Our first mobile game is available for free download
 featuredpost: true
-featuredimage: /img/word-snke-promotional.png
+featuredimage: /img/word-snke-promotional-square.jpg
 tags:
   - Word SNKE
   - Google Play
@@ -17,7 +17,7 @@ tags:
   - game
   - word
 ---
-![Word SNKE Promotional Image](/img/word-snke-promotional-square.png "Word SNKE")
+![Word SNKE Promotional Image](/img/word-snke-promotional-landscape.jpg "Word SNKE")
 
 Word SNKE is available to download for free on both the [App Store](https://apps.apple.com/us/app/word-snke/id1600602965) and [Google Play](https://play.google.com/store/apps/details?id=com.LittleLeafInteractive.SubspaceHackers)!
 
