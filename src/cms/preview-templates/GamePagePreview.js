@@ -6,8 +6,6 @@ const GamePagePreview = ({ entry, getAsset, widgetFor }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
-  const entryTestimonials = entry.getIn(['data', 'testimonials'])
-  const testimonials = entryTestimonials ? entryTestimonials.toJS() : []
 
   return (
     <GamePageTemplate
@@ -18,7 +16,6 @@ const GamePagePreview = ({ entry, getAsset, widgetFor }) => {
       intro={{ 
         blurbs: blurbs
       }}
-      testimonials={testimonials}
       content={widgetFor('body')}
     />
   )
