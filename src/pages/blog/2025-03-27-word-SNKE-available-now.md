@@ -17,7 +17,7 @@ tags:
   - game
   - word
 ---
-![Word SNKE Promotional Image](/img/word-snke-promotional.png "Word SNKE")
+![Word SNKE Promotional Image](/img/word-snke-promotional-square.png "Word SNKE")
 
 Word SNKE is available to download for free on both the [App Store](https://apps.apple.com/us/app/word-snke/id1600602965) and [Google Play](https://play.google.com/store/apps/details?id=com.LittleLeafInteractive.SubspaceHackers)!
 
