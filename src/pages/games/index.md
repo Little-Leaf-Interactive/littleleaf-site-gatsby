@@ -7,7 +7,7 @@ image: /img/jumbotron.jpg
 description: Here is a list of our games...
 intro:
   blurbs:
-    - image: /img/word-snke-promotional.png
+    - image: /img/word-snke-promotional-square.jpg
       text: >-
         Word SNKE
         Are you a fan of word games, puzzles, and snakes? If so, get ready to slither into Word SNKE, a word game that will wrap you up in fun for hours on end!
