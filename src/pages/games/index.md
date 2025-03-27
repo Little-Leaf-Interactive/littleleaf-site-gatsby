@@ -16,6 +16,6 @@ intro:
         Dangernauts is a simple team game!
         Join Team Coral Reef or Team Algae Blooms as you venture under the sea. Maneuver your team's submarine and acquire the sea mine to destroy your enemy's base in a timed match. Enter the sub as one of four playable sailors; Sassy Scuba Guy, Wiggling Octopus, Merman of a different sort, and Mr. Shark.
 ---
-Word SNKE is available to download for free on both the [App Store](https://apps.apple.com/us/app/word-snke/id1600602965) and ![Google Play](https://play.google.com/store/apps/details?id=com.LittleLeafInteractive.SubspaceHackers)!
+Word SNKE is available to download for free on both the [App Store](https://apps.apple.com/us/app/word-snke/id1600602965) and [Google Play](https://play.google.com/store/apps/details?id=com.LittleLeafInteractive.SubspaceHackers)!
 
 Dangernauts is available to download for free at [itch.io](https://littleleafinteractive.itch.io/dangernauts)
