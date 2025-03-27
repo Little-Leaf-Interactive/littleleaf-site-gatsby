@@ -19,3 +19,9 @@ intro:
         Join Team Coral Reef or Team Algae Blooms as you venture under the sea. Maneuver your team's submarine and acquire the sea mine to destroy your enemy's base in a timed match. Enter the sub as one of four playable sailors; Sassy Scuba Guy, Wiggling Octopus, Merman of a different sort, and Mr. Shark.
 
         Dangernauts is available to download for free at [itch.io](https://littleleafinteractive.itch.io/dangernauts)
+testimonials:
+  - author: Elisabeth Kaurismäki
+    quote: The first time I tried Little Leaf's games, I couldn't stop playing!
+  - author: Philipp Trommler
+    quote: Little Leaf is the place to go if you want the best quality games.
+---
