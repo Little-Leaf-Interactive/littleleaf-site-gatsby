@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
 import Content, { HTMLContent } from '../components/Content'
 
 export const GamePageTemplate = ({
@@ -15,7 +14,6 @@ export const GamePageTemplate = ({
   description,
   intro,
   main,
-  testimonials,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -54,7 +52,6 @@ export const GamePageTemplate = ({
               <div className="column is-10 is-offset-1">
                 {intro.blurbs && <Features gridItems={intro.blurbs} />}
                 <PageContent className="content" content={content} />
-                <Testimonials testimonials={testimonials} />
               </div>
             </div>
           </div>
@@ -76,7 +73,6 @@ GamePageTemplate.propTypes = {
     heading: PropTypes.string,
     description: PropTypes.string,
   }),
-  testimonials: PropTypes.array,
 }
 
 const GamePage = ({ data }) => {
@@ -92,7 +88,6 @@ const GamePage = ({ data }) => {
         intro={frontmatter.intro}
         title={frontmatter.title}
         content={data.markdownRemark.html}
-        testimonials={frontmatter.testimonials}
       />
     </Layout>
   )
@@ -134,10 +129,6 @@ export const gamePageQuery = graphql`
             }
             text
           }
-        }
-        testimonials {
-          author
-          quote
         }
       }
     }
