@@ -1,12 +1,12 @@
 ---
 templateKey: privacy-policy-page
 path: /privacy-policy
-heading: Subspace Hackers Privacy Policy
+heading: Word SNKE Privacy Policy
 description: Our most recent privacy policy for the Subspace Hackers app
 ---
 # Privacy Policy
 
-Last updated: December 19, 2021
+Last updated: March 27, 2025
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
