@@ -11,6 +11,5 @@ mainpitch:
 intro:
   blurbs: null
   heading: What are we up to?
-  description: We just launched Word SNKE, a letter-munching puzzle game that keeps you engaged and motivated. With an intuitive interface and endless puzzles, it's a top pick for word game fans. Word SNKE is available to download for free on both the [App Store](https://apps.apple.com/us/app/word-snke/id1600602965) and [Google Play](https://play.google.com/store/apps/details?id=com.LittleLeafInteractive.SubspaceHackers)!
----
+  description: We just launched Word SNKE, a letter-munching puzzle game that keeps you engaged and motivated. With an intuitive interface and endless puzzles, it's a top pick for word game fans. See our games page for links to download on the App Store and Google Play
 We have bigger plans for the future so stay tuned to our social media channels for more updates!
